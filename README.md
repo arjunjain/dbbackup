@@ -5,7 +5,7 @@ Backup mysql database. Create sql file for every database. You can also setup cr
 
 Add this line in crontab file 
 
-@daily php <path to dbbackup folder>/backup.php
+@daily php <<path to dbbackup folder>>/backup.php
 
  
 
