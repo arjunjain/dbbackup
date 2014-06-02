@@ -1,4 +1,17 @@
 dbbackup
 ========
 
-Backup database
+Backup mysql database. Create sql file for every database. You can also setup cron job to backup mysql database automatically.
+
+Add this line in crontab file 
+
+@daily php <path to dbbackupfolder>/backup.php
+
+How to use
+======
+
+Update MySql database credentials in config.php file.
+
+ 
+
+
