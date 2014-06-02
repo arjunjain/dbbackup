@@ -1,4 +1,4 @@
-dbbackup
+MySql database backup
 ========
 
 Backup mysql database. Create sql file for every database. You can also setup cron job to backup mysql database automatically.
