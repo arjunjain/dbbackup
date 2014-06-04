@@ -13,5 +13,5 @@ Cronjob setup
 You can also setup cron job to backup mysql database everyday.  Add this line in crontab file 
 
 ```bash
-@daily php  &lt; PATH TO BACKUP FOLDER &gt;/backup.php
+@daily php  <PATH TO BACKUP FOLDER>/backup.php
 ```
