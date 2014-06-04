@@ -1,12 +1,17 @@
 MySql database backup
 ========
 
-Backup mysql database. Create sql file for every database. You can also setup cron job to backup mysql database automatically.
+PHP script to backup mysql database.
 
-Add this line in crontab file 
+- Script create sql file for every database. 
+- Configure for number of database backup to keep in system. 
+- Configure list of database to exclude from backup. 
 
-@daily php path to dbbackup folder/backup.php
+Cronjob setup
+----
 
- 
+You can also setup cron job to backup mysql database everyday.  Add this line in crontab file 
 
-
+```bash
+@daily php  &lt; PATH TO BACKUP FOLDER &gt;/backup.php
+```
