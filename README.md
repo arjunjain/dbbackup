@@ -4,8 +4,8 @@ MySql database backup
 PHP script to backup mysql database.
 
 - Script create sql file for every database. 
-- Configure for number of database backup to keep in system. 
-- Configure list of database to exclude from backup. 
+- Provide option to configure for number of database backup to keep in system. 
+- Provide option to configure list of database's to exclude from backup. 
 
 Cronjob setup
 ----
