@@ -38,7 +38,7 @@
 	
 	foreach ($alldatabases as $database){
 		$bkp_filename=$database.'.sql';
-		$bkp_command='mysqldump --hex-blob --routines --skip-lock-tables --log-error='.DB_DIR.'mysqldump_error.log -h '.DB_HOST.' -u'.DB_USER.' -p'.DB_PASS.' --databases '.$database.' > '.$basedir.$bkp_filename;
+		$bkp_command='mysqldump --hex-blob --routines --skip-lock-tables --log-error='.DB_DIR.'mysqldump_error.log -h '.DB_HOST.' -u'.DB_USER.' --password=\''.DB_PASS.'\' --databases '.$database.' > '.$basedir.$bkp_filename;
 		exec($bkp_command,$output,$log);
 	}
 	
